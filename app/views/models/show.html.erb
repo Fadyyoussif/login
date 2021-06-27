@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Comment:</strong>
+  <%= @model.comment %>
+</p>
+
+<p>
+  <strong>Body:</strong>
+  <%= @model.body %>
+</p>
+
+<p>
+  <strong>Article:</strong>
+  <%= @model.article_id %>
+</p>
+
+<%= link_to 'Edit', edit_model_path(@model) %> |
+<%= link_to 'Back', models_path %>
